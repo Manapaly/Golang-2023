@@ -2,8 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Go_Projects" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/awesomeProject" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/awesomeProject1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anyPractices" vcs="Git" />
   </component>
 </project>

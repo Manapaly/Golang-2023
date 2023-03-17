@@ -3,11 +3,11 @@ package main
 import "golang.org/x/crypto/bcrypt"
 
 type User struct {
-	FirsName string
-	LastName string
-	Phone    string
-	Email    string
-	Password string
+	FirsName string `json:"firs_name"`
+	LastName string `json:"last_name"`
+	Phone    string `json:"phone"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
 }
 
 type AuthUser struct {
