@@ -1,4 +1,4 @@
-module github.com/ZhanserikKalmukhambet/assignment_3
+module github.com/Manapaly/Golang-2023/assignment_3j
 
 go 1.19
 

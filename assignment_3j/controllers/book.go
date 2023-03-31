@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/ZhanserikKalmukhambet/assignment_3/initializers"
-	"github.com/ZhanserikKalmukhambet/assignment_3/models"
+	"github.com/Manapaly/Golang-2023/assignment_3j/initializers"
+	"github.com/Manapaly/Golang-2023/assignment_3j/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"

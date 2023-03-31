@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ZhanserikKalmukhambet/assignment_3/controllers"
-	"github.com/ZhanserikKalmukhambet/assignment_3/initializers"
+	"github.com/Manapaly/assignment_3j/controllers"
+	"github.com/Manapaly/assignment_3j/initializers"
 	"github.com/gin-gonic/gin"
 )
 
