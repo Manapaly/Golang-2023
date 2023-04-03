@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Manapaly/assignment_3j/controllers"
-	"github.com/Manapaly/assignment_3j/initializers"
+	"github.com/Manapaly/Golang-2023/assignment_3j/controllers"
+	"github.com/Manapaly/Golang-2023/assignment_3j/initializers"
 	"github.com/gin-gonic/gin"
 )
 
