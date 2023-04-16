@@ -1,15 +1,19 @@
+# Use an official Golang runtime as a parent image
 FROM golang:latest
 
+# Set the working directory to /app
 WORKDIR /app
 
-COPY go.mod ./
-COPY go.sum ./
-RUN go mod download
-
+# Copy the source code and config file into the container at /app
 COPY . .
-
+RUN go mod download
+# Build the Go app
 RUN go build -o main .
 
-EXPOSE 3000
+# Use an official Alpine Linux image as a parent image
 
-CMD ["./main"]
+# Expose port 8080
+EXPOSE 8080
+
+# Run the command to start the app with the config file
+CMD ["/app/main"]

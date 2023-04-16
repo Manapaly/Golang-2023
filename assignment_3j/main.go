@@ -3,12 +3,14 @@ package main
 import (
 	"github.com/Manapaly/Golang-2023/assignment_3j/controllers"
 	"github.com/Manapaly/Golang-2023/assignment_3j/initializers"
+	"github.com/Manapaly/Golang-2023/assignment_3j/models"
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
 	initializers.LoadEnvVariables()
 	initializers.ConnectDatabase()
+	initializers.DB.AutoMigrate(&models.Book{})
 }
 
 func main() {
