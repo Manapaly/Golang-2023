@@ -15,7 +15,8 @@ func main() {
 	r.GET("/books", pkg.GetBooks)
 	r.GET("/books/desc", pkg.Desc)
 	r.GET("/books/asc", pkg.Asc)
-	r.GET("/books/:id", pkg.GetBook)
+	r.GET("/books/", pkg.GetBook)
+
 	r.POST("/books", pkg.CreateBook)
 	r.DELETE("/books/:id", pkg.DeleteBook)
 	r.PATCH("/books/:id", pkg.UpdateBook)
